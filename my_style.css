@@ -1,8 +1,32 @@
 html { 
-        background: url(imagine_it_anew_bg.png) center center fixed; 
+    background: url(imagine_it_anew_bg.png) center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    /* background-size: cover; */
-    background-size: 235vmin 100%;
+    background-size: cover;
+    /* background-size: 235vmin 100%; */
   }
+
+  /* @media only screen and (max-width: 500px)   {
+    body{
+    background: url(ImagineItAnewmobile.png) center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    background-size: 235vmin 100%;
+    }
+   
+  } */
+
+  @media only screen and (max-width : 950px ){
+ 
+    html {
+        background: url(ImagineItAnewmobile.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        /* background-size: 235vmin 100%; */
+        }
+    }
